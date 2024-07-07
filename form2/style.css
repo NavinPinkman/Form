@@ -79,3 +79,12 @@ body{
     color: red;
     font-size: 15px;
 }
+@media (max-width: 767px) {
+    .outline-border {
+        background-color: black;
+        padding: 0px;
+    }
+    body{
+        background: black;
+    }
+}
