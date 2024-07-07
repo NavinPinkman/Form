@@ -11,9 +11,10 @@ body{
         letter-spacing: 1px;
         box-sizing: border-box;
  }
- .title-label{
+ .title-label h1{
     color: red;
     padding-left: 20px;
+    font-weight: bolder;
  }
 .outline-border{
     display: flex;
