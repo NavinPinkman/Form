@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(/images/netflix\ form.jpg);
+}
+ *{
+        font-family: "Poppins", sans-serif;
+        font-weight: 1000;
+        font-style: normal;   
+        letter-spacing: 1px;
+        box-sizing: border-box;
+ }
+ .title-label{
+    color: red;
+    padding-left: 20px;
+ }
+.outline-border{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 50px;
+ }
+ .inline-border{
+    /* border: 2px solid white; */
+    max-width: 450px;
+    width: 100%;
+    background-color: black;
+    opacity:0.8;
+    color: white;
+    padding: 20px ;
+    border-radius: 10px;
+ }
+ .main-label{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid white; */
+    padding: 20px;
+ }
+.label input{
+    width: 100%;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 10px;
+}
+.label input:hover{
+    border-color: white;
+}
+.button-label{
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    color: white;
+    background-color: red;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.button-label:hover{
+    /* background-color: black; */
+    opacity: 0.4;
+}
+.main-label a ,h3{
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    text-decoration: none;
+    margin-bottom: 0px;
+}
+.main-label a:hover{
+    text-decoration: underline;
+}
+.label.wrong input{
+    border-color: red;
+}
+.error{
+    color: red;
+    font-size: 15px;
+}
